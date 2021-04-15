@@ -21,3 +21,5 @@ class BudgetList():
 
 def main():
     myBudgetList = BudgetList(1200)
+    expenses = Expense.Expense()
+    expenses.read_expenses("data/spending_data.csv")
