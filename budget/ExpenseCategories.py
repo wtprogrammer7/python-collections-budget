@@ -35,5 +35,7 @@ expenses.read_expenses('data/spending_data.csv')
     globals=globals()
     ))
 
+    fig,ax=plt.subplots()
+
 if __name__ == "__main__":
     main()
