@@ -53,3 +53,5 @@ class Expenses():
         }
 
         unnecessary_expenses = set(self.list) - necessary_expenses - food_expenses
+
+        return [necessary_expenses, food_expenses, unnecessary_expenses]
