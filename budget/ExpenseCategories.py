@@ -36,6 +36,7 @@ expenses.read_expenses('data/spending_data.csv')
     ))
 
     fig,ax=plt.subplots()
+    labels = ['Necessary', 'Food', 'Unnecessary']
 
 if __name__ == "__main__":
     main()
